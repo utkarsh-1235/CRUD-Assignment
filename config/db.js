@@ -7,4 +7,6 @@
     console.log("ERROR",err.message)
  })}
 
- module.exports = connectToDb;
+ console.log(process.env.DB_URL)
+ console.log(process.env.PORT)
+ module.exports = connectToDb
